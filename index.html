@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+  
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"> -->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <div class="wrapper">
+        
+        <div class="header">
+            <p class="glow">MY TODO</p>
+            <div id="date"></div>
+            <div class="quote-img">
+                <img src="css/img/todolist_img1.svg" alt="todolist" class="center">
+            </div>
+            <!-- <p class="font-effect-fire">Today's tasks</p> -->
+        </div>
+        
+        
+        <ol class="todolist"></ol>
+        
+        <div class="inputField">
+            <input type="text" placeholder="Add your new todo">
+            <button><i class="fas fa-plus-circle"></i></button>
+        </div>
+        <div class="footer">
+            <span>You have <span class="pendingTasks"></span> pending tasks</span>
+            <button>Clear All</button>
+          </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
